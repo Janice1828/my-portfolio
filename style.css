@@ -4,6 +4,10 @@
     margin:0;
     font-family:'poppins', sans-serif;
 }
+textarea{
+font-size:18px !important;
+    padding:10px !important;
+}
 nav{
     display:flex;
 }
