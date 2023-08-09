@@ -180,7 +180,7 @@ padding:30px 15px;
     outline:none;
 }
 #first-child{
-    background:green;
+    background:#E44D26;
     width:80%;
 display:flex;
 justify-content: center;
@@ -189,8 +189,7 @@ color:white;
 }
 #second-child{
     width:80%;
-
-    background:#cfbf39;
+    background:#264DE4;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -198,7 +197,7 @@ color:white;
 }
 #third-child{
     width:60%;
-    background:#fe3636;
+    background:#F7DF1E;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -206,7 +205,7 @@ color:white;
 }
 #fourth-child{
     width:60%;
-    background:blue;
+    background:#61DAFB;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -282,8 +281,9 @@ html{
     color:rgb(26, 26, 190);
     font-size:40px;
     padding-bottom:10px;
-    border-bottom:1px solid rgb(173, 166, 166);
-    width:400px;
+    border-bottom:1px solid rgb(26, 26, 190);
+
+    width:280px;
 display:flex;
 justify-content: center;
 margin:auto;
