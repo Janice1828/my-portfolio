@@ -512,3 +512,59 @@ form button:hover{
 #contact{
     position:relative;
 }
+.workImages{
+    height:350px;
+    width:350px;
+}
+#reactProjectTitle{
+    text-align: center;
+    margin-bottom: 50px;
+    color:green;
+    font-weight: 900;
+}
+.projectscontainer{
+    width:80%;
+    margin:auto;
+    height:100vh;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.card{
+    padding:10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 5px #9d9292;
+}
+.projectName{
+    text-align: center;
+    margin-top: 20px;
+
+}
+#projectsContainer{
+    display: flex;
+    gap:50px;
+}
+@media only screen and (max-width:1262px){
+    #reactProjectTitle{
+        margin-bottom: 0px;
+    }
+#projectsContainer{
+   flex-direction: column;
+    width:100%;
+}
+.projectscontainer{
+    width: 50%;
+}
+.card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+}
+@media only screen and (max-width:837px){
+    .projectscontainer{
+        width: 70%;
+    }
+}
